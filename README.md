@@ -1,7 +1,7 @@
-# CRM - Customer Releationship Management
+# CRM - Customer Releationship Management :computer:
 CRM is a Java based Web Application used to manage customer record for a specific organization.
 
-## Features
+## Features :fire:
 * Create new customer
 * Delete customer
 * Update Customer
@@ -9,11 +9,11 @@ CRM is a Java based Web Application used to manage customer record for a specifi
 * Login
 * Logout
 
-## Database Structure
+## Database Structure :file_folder:
 
 ![database_screenshot](src/img/db.png)
 
-## Technology Used
+## Technology Used :globe_with_meridians:
 * SpringFramework
 * Spring WEBMVC
 * Spring Security
@@ -21,10 +21,10 @@ CRM is a Java based Web Application used to manage customer record for a specifi
 * HTML
 * CSS
 
-## Tools Used
+## Tools Used :wrench:
 * IntelliJ IDEA
 * Github
 * Maven
 
 ## About the Developer
-Connect me on LinkedIn [here](https://www.linkedin.com/mwlite/in/abhishek-vaish)
+Connect me on LinkedIn [here](https://www.linkedin.com/mwlite/in/abhishek-vaish) :heart:
