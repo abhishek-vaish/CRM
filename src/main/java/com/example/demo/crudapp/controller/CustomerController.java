@@ -30,7 +30,7 @@ public class CustomerController {
         this.customerService = theCustomerService;
     }
 
-    @GetMapping("/customer")
+    @GetMapping("/")
     public String getCustomer(Model model) {
         List<Customer> customers = customerService.getCustomer();
         model.addAttribute("customer", customers);
@@ -47,7 +47,7 @@ public class CustomerController {
     @PostMapping("/saveCustomer")
     public String saveCustomer(@ModelAttribute("customer") Customer customer) {
         customerService.addCustomer(customer);
-        return "redirect:/customer";
+        return "redirect:/";
     }
 
     @GetMapping("/update")
@@ -60,7 +60,7 @@ public class CustomerController {
     @GetMapping("/delete")
     public String deleteCustomer(@RequestParam("customerId") int id) {
         customerService.deleteCustomer(id);
-        return "redirect:/customer";
+        return "redirect:/";
     }
 
 
