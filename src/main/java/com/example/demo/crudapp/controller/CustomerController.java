@@ -30,7 +30,7 @@ public class CustomerController {
         this.customerService = theCustomerService;
     }
 
-    @GetMapping("/")
+    @GetMapping("/customer")
     public String getCustomer(Model model) {
         List<Customer> customers = customerService.getCustomer();
         model.addAttribute("customer", customers);
