@@ -14,8 +14,8 @@ CRM is a Java based Web Application used to manage customer record for a specifi
 ![database_screenshot](src/img/db.png)
 
 ## Technology Used :globe_with_meridians:
-* SpringFramework
-* Spring WEBMVC
+* Spring Boot
+* Spring-MVC
 * Spring Security
 * MySQL
 * HTML
