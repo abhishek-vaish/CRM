@@ -1,4 +1,4 @@
-# CRM - Customer Releationship Management :computer:
+# CRM - Customer Relationship Management :computer:
 CRM is a Java based Web Application used to manage customer record for a specific organization.
 
 ## Features :fire:
